@@ -7,7 +7,7 @@
 
 <!-- 🎨 动态头像（真实头像）+ 悬停彩蛋 -->
 <div style="margin: 40px 0;">
-  <img src="Image\56382608.png"
+  <img src="https://raw.githubusercontent.com/IRandonation/IRandonation/master/Image/56382608.png"
        alt="Profile"
        width="180"
        style="border-radius: 50%; box-shadow: 0 8px 32px rgba(0,0,0,0.3); transition: transform 0.4s ease, filter 0.4s ease;"
@@ -114,13 +114,9 @@
   }
 </style>
 
-<!-- 📅 自动更新时间 -->
-<script>
-  document.getElementById('last-updated').textContent = new Date().toLocaleDateString('zh-CN', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric'
-  });
-</script>
+<!-- 📝 页脚 -->
+<div align="center" style="margin: 30px 0; padding: 20px; border-top: 1px solid #30363d;">
+  <img src="https://img.shields.io/badge/Last%20Updated-2025--07--22-blue?style=flat-square&logo=github" alt="last-updated">
+</div>
 
 </div>
