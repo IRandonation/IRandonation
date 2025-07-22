@@ -94,26 +94,6 @@
   </p>
 </div>
 
-<!-- 🎨 样式增强 -->
-<style>
-  img {
-    transition: all 0.3s ease;
-  }
-  img:hover {
-    transform: scale(1.05);
-    filter: brightness(1.1);
-  }
-  @media (max-width: 768px) {
-    table {
-      width: 100% !important;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-  }
-</style>
-
 <!-- 📝 页脚 -->
 <div align="center" style="margin: 30px 0; padding: 20px; border-top: 1px solid #30363d;">
   <img src="https://img.shields.io/badge/Last%20Updated-2025--07--22-blue?style=flat-square&logo=github" alt="last-updated">
