@@ -2,12 +2,12 @@
 
 <!-- 🌟 动态欢迎横幅（带 slogan） -->
 <a href="https://blog.sunguoqi.com/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=00D4FF&width=500&lines=console.log(%22Hello%2C+World%22);Welcome+to+My+Digital+Space!;I'm+a+Romantic+Rationalist.&center=true&vCenter=true" alt="Welcome" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=00D4FF&width=500&lines=print(%22Hello%2C+World%22);Welcome+to+My+Digital+Space!;I'm+Irandonation.&center=true&vCenter=true" alt="Welcome" />
 </a>
 
 <!-- 🎨 动态头像（真实头像）+ 悬停彩蛋 -->
 <div style="margin: 40px 0;">
-  <img src="https://raw.githubusercontent.com/IRandonation/IRandonation/master/Image/56382608.png"
+  <img src="https://raw.githubusercontent.com/IRandonation/IRandonation/master/Image/1.gif"
        alt="Profile"
        width="180"
        style="border-radius: 50%; box-shadow: 0 8px 32px rgba(0,0,0,0.3); transition: transform 0.4s ease, filter 0.4s ease;"
@@ -53,13 +53,12 @@
 
 <!-- 🔥 连续贡献记录 -->
 <div style="margin: 30px 0;">
-  <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/left.png" width="100" style="vertical-align: middle; margin-right: 15px;" />
+  
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=IRandonation&theme=dark&hide_border=true&background=0D1117&ring=58A6FF&fire=FF6B35&currStreakNum=FFFFFF" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=IRandonation&theme=light&hide_border=true&background=FFFFFF&ring=0969DA&fire=F85149&currStreakNum=24292F" />
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=IRandonation&theme=dark&hide_border=true&background=0D1117&ring=58A6FF&fire=FF6B35&currStreakNum=FFFFFF" alt="GitHub Streak" width="450" />
   </picture>
-  <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/right.png" width="100" style="vertical-align: middle; margin-left: 15px;" />
 </div>
 
 <!-- 📈 活动图表 -->
