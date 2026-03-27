@@ -20,15 +20,24 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      # Checkout the repository
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Install dependencies for canvas
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgif-dev libgl1-mesa-dev libgl1-mesa-glx
+
       # Generate the snake SVGs
       - name: Generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk@v3
         with:
           github_user_name: IRandonation
           outputs: |
             output/github-contribution-grid-snake.svg
             output/github-contribution-grid-snake-dark.svg?palette=github-dark
-            output/github-contribution-grid-snake.gif?color-snake=#58A6FF&color-dots=#0D1117
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
