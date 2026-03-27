@@ -35,8 +35,10 @@ The README.md uses the following external services to generate dynamic content:
 | Typing SVG | `readme-typing-svg.demolab.com` | Animated typing text | ⚠️ May timeout in China |
 | Profile Views | `komarev.com/ghpvc` | Visitor counter | ✅ Stable |
 | GitHub Raw | `raw.githubusercontent.com` | Profile images | ✅ Stable |
+| GitHub Readme Stats | `github-readme-stats.vercel.app` | Stats cards, top languages | ⚠️ Vercel hosted |
+| GitHub Streak Stats | `github-readme-streak-stats.herokuapp.com` | Contribution streak | ⚠️ Heroku hosted |
 
-**Note**: Vercel/Heroku hosted services (github-readme-stats, trophy, streak-stats) have been replaced with shields.io for better accessibility in China.
+**Note**: GitHub Profile Trophy has been removed due to display issues.
 
 ## Code Style Guidelines
 
