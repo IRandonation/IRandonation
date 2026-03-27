@@ -110,43 +110,24 @@
   </div>
 </div>
 
-<!-- 📌 精选项目 -->
-<div style="margin: 40px 0;">
-  <h3 style="color: #58A6FF; font-family: 'Fira Code', monospace; margin-bottom: 20px; font-size: 1.3em;">📌 Featured Projects</h3>
-  <div style="display: flex; justify-content: center; gap: 25px; flex-wrap: wrap; margin: 15px 0;">
-    
-    <!-- Project 1 -->
-    <div style="background: linear-gradient(135deg, rgba(30, 58, 95, 0.7) 0%, rgba(13, 27, 42, 0.9) 100%); padding: 25px; border-radius: 16px; max-width: 320px; min-width: 280px; box-shadow: 0 8px 24px rgba(0,0,0,0.3); border: 1px solid rgba(88, 166, 255, 0.15);">
-      <h4 style="color: #58A6FF; margin-bottom: 12px; font-size: 1.2em;">🎵 FreqSpectrum</h4>
-      <p style="color: #8b949e; font-size: 13px; line-height: 1.7; margin-bottom: 15px;">
-        基于 WS2812 LED 矩阵的音乐频谱可视化系统，使用 Python+C++ 开发，实时显示音频频谱
-      </p>
-      <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-        <a href="https://github.com/IRandonation/FreqSpectrum-Light">
-          <img src="https://img.shields.io/badge/View_Project-58A6FF?style=flat&logo=github" alt="View" />
-        </a>
-        <img src="https://img.shields.io/badge/Language-C++-00599C?style=flat-square" alt="C++" />
-        <img src="https://img.shields.io/badge/Language-Python-3776AB?style=flat-square" alt="Python" />
-      </div>
-    </div>
-    
-    <!-- Project 2 -->
-    <div style="background: linear-gradient(135deg, rgba(30, 58, 95, 0.7) 0%, rgba(13, 27, 42, 0.9) 100%); padding: 25px; border-radius: 16px; max-width: 320px; min-width: 280px; box-shadow: 0 8px 24px rgba(0,0,0,0.3); border: 1px solid rgba(88, 166, 255, 0.15);">
-      <h4 style="color: #58A6FF; margin-bottom: 12px; font-size: 1.2em;">⌨️ Custom Keyboard</h4>
-      <p style="color: #8b949e; font-size: 13px; line-height: 1.7; margin-bottom: 15px;">
-        自主设计的机械键盘项目，支持 QMK/VIA 固件，可自定义 RGB 灯效和按键映射
-      </p>
-      <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-        <a href="https://github.com/IRandonation/keyboard">
-          <img src="https://img.shields.io/badge/View_Project-58A6FF?style=flat&logo=github" alt="View" />
-        </a>
-        <img src="https://img.shields.io/badge/Firmware-QMK-FF6B6B?style=flat-square" alt="QMK" />
-        <img src="https://img.shields.io/badge/Hardware-PCB-9CF?style=flat-square" alt="PCB" />
-      </div>
-    </div>
-    
-  </div>
-</div>
+<!-- 📌 精选项目 - 使用表格布局避免 GitHub 转义 -->
+<h3 align="center" style="color: #58A6FF; font-family: 'Fira Code', monospace;">📌 Featured Projects</h3>
+
+| 🎵 FreqSpectrum | ⌨️ Custom Keyboard |
+|:---:|:---:|
+| LED 音乐频谱可视化 | 自定义机械键盘 |
+| Python + C++ | QMK/VIA 固件 |
+| [View Project](https://github.com/IRandonation/FreqSpectrum-Light) | [View Project](https://github.com/IRandonation/keyboard) |
+
+<!-- 项目徽章 -->
+<p align="center">
+  <a href="https://github.com/IRandonation/FreqSpectrum-Light">
+    <img src="https://img.shields.io/badge/FreqSpectrum-LED频谱-9CF?style=for-the-badge&logo=github" alt="FreqSpectrum" />
+  </a>
+  <a href="https://github.com/IRandonation/keyboard">
+    <img src="https://img.shields.io/badge/Keyboard-自定义键盘-ff69b4?style=for-the-badge&logo=github" alt="Keyboard" />
+  </a>
+</p>
 
 <!-- ✨ 渐变分割线 -->
 <div style="height: 2px; background: linear-gradient(90deg, transparent, #58A6FF, transparent); margin: 40px 0;"></div>
