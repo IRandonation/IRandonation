@@ -59,6 +59,51 @@
 <!-- ✨ 渐变分割线 -->
 <div style="height: 2px; background: linear-gradient(90deg, transparent, #58A6FF, transparent); margin: 40px 0;"></div>
 
+<!-- 📈 活动图表 -->
+<div style="margin: 30px 0;">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=IRandonation&theme=github-dark&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=IRandonation&theme=github-light&hide_border=true&bg_color=FFFFFF&color=0D1117&line=0D1117&point=0D1117" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=IRandonation&theme=github-dark&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF" alt="GitHub Activity Graph" width="100%"
+         style="border-radius: 16px; box-shadow: 0 8px 24px rgba(88, 166, 255, 0.2);" />
+  </picture>
+</div>
+
+<!-- 💻 WakaTime 编程时间统计（可选） -->
+<!-- 如需显示，请注册 https://wakatime.com 并替换 YOUR_WAKATIME_TOKEN -->
+<!-- <div style="margin: 30px 0;">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=IRandonation&theme=radical&token=YOUR_TOKEN" 
+       alt="WakaTime Stats" width="100%" style="border-radius: 16px; box-shadow: 0 8px 24px rgba(88, 166, 255, 0.2);" />
+</div> -->
+
+<!-- 🎯 技能进度 -->
+<div style="margin: 30px 0; padding: 25px; background: linear-gradient(135deg, rgba(30, 58, 95, 0.6) 0%, rgba(13, 27, 42, 0.8) 100%); border-radius: 16px; border: 1px solid rgba(88, 166, 255, 0.2);">
+  <h3 style="color: #58A6FF; font-family: 'Fira Code', monospace; margin-bottom: 20px; font-size:1.3em;">🎯 Skill Progression</h3>
+  <p style="margin: 12px 0; color: #c9d1d9; font-size: 14px;">
+    <span style="color: #58A6FF; font-weight: bold; min-width: 80px; display: inline-block;">Python</span>
+    <span style="color: #FF6B6B;">█████████░</span>
+    <span style="color: #58A6FF; font-weight: bold; margin-left: 8px;">85%</span>
+  </p>
+  <p style="margin: 12px 0; color: #c9d1d9; font-size: 14px;">
+    <span style="color: #58A6FF; font-weight: bold; min-width: 80px; display: inline-block;">C++</span>
+    <span style="color: #FFD700;">███████░░░</span>
+    <span style="color: #58A6FF; font-weight: bold; margin-left: 8px;">70%</span>
+  </p>
+  <p style="margin: 12px 0; color: #c9d1d9; font-size: 14px;">
+    <span style="color: #58A6FF; font-weight: bold; min-width: 80px; display: inline-block;">ROS</span>
+    <span style="color: #9CF;">████████░░</span>
+    <span style="color: #58A6FF; font-weight: bold; margin-left: 8px;">80%</span>
+  </p>
+  <p style="margin: 12px 0; color: #c9d1d9; font-size: 14px;">
+    <span style="color: #58A6FF; font-weight: bold; min-width: 80px; display: inline-block;">Docker</span>
+    <span style="color: #8b949e;">█████░░░░░</span>
+    <span style="color: #58A6FF; font-weight: bold; margin-left: 8px;">50%</span>
+  </p>
+</div>
+
+<!-- ✨ 渐变分割线 -->
+<div style="height: 2px; background: linear-gradient(90deg, transparent, #58A6FF, transparent); margin: 40px 0;"></div>
+
 <!-- 🛠️ 技术栈 -->
 <div style="margin: 40px 0;">
   <h3 style="color: #58A6FF; font-family: 'Fira Code', monospace; margin-bottom: 20px; font-size: 1.3em;">🛠️ Tech Stack</h3>
@@ -75,13 +120,26 @@
 <!-- 📌 精选项目 -->
 <div style="margin: 40px 0;">
   <h3 style="color: #58A6FF; font-family: 'Fira Code', monospace; margin-bottom: 20px; font-size: 1.3em;">📌 Featured Projects</h3>
-  <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin: 15px 0;">
-    <a href="https://github.com/IRandonation/FreqSpectrum-Light">
-      <img src="https://img.shields.io/badge/🎵_FreqSpectrum-LED频谱显示-9CF?style=for-the-badge" alt="FreqSpectrum" />
-    </a>
-    <a href="https://github.com/IRandonation/keyboard">
-      <img src="https://img.shields.io/badge/⌨️_Keyboard-自定义键盘-ff69b4?style=for-the-badge" alt="Keyboard" />
-    </a>
+  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 15px 0;">
+    <div style="background: linear-gradient(135deg, #1e3a5f 0%, #0d1b2a 100%); padding: 20px; border-radius: 12px; width: 300px; box-shadow: 0 8px 24px rgba(0,0,0,0.3);">
+      <h4 style="color: #58A6FF; margin-bottom: 10px; font-size: 1.1em;">🎵 FreqSpectrum</h4>
+      <p style="color: #8b949e; font-size: 13px; line-height: 1.6; margin-bottom: 12px;">
+        基于 WS2812 LED 矩阵的音乐频谱可视化系统，使用 Python+C++ 开发
+      </p>
+      <a href="https://github.com/IRandonation/FreqSpectrum-Light">
+        <img src="https://img.shields.io/badge/View_Project-58A6FF?style=flat&logo=github" />
+      </a>
+    </div>
+    
+    <div style="background: linear-gradient(135deg, #1e3a5f 0%, #0d1b2a 100%); padding: 20px; border-radius: 12px; width: 300px; box-shadow: 0 8px 24px rgba(0,0,0,0.3);">
+      <h4 style="color: #58A6FF; margin-bottom: 10px; font-size: 1.1em;">⌨️ Custom Keyboard</h4>
+      <p style="color: #8b949e; font-size: 13px; line-height: 1.6; margin-bottom: 12px;">
+        自主设计的机械键盘项目，支持 QMK/VIA 固件，RGB 灯效
+      </p>
+      <a href="https://github.com/IRandonation/keyboard">
+        <img src="https://img.shields.io/badge/View_Project-58A6FF?style=flat&logo=github" />
+      </a>
+    </div>
   </div>
 </div>
 
