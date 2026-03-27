@@ -66,6 +66,48 @@
   </div>
 </div>
 
+<!-- ✨ 分割线 -->
+<div style="height: 2px; background: rgba(143, 143, 143, 0.62); margin: 30px 0;" ></div>
+
+<!-- 📌 置顶项目 -->
+<div style="margin: 40px 0;">
+  <h3 style="color: #58A6FF; font-family: 'Fira Code', monospace;">📌 我的项目</h3>
+  <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin: 20px 0;">
+    <a href="https://github.com/IRandonation/FreqSpectrum-Light">
+      <img src="https://img.shields.io/badge/🎵_FreqSpectrum-LED音乐频谱-9CF?style=for-the-badge" alt="FreqSpectrum" />
+    </a>
+    <a href="https://github.com/IRandonation/keyboard">
+      <img src="https://img.shields.io/badge/⌨️_Keyboard-自定义键盘-ff69b4?style=for-the-badge" alt="Keyboard" />
+    </a>
+  </div>
+</div>
+
+<!-- ✨ 分割线 -->
+<div style="height: 2px; background: rgba(143, 143, 143, 0.62); margin: 30px 0;" ></div>
+
+<!-- 🐍 贡献贪吃蛇动画 -->
+<div style="margin: 30px 0;">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IRandonation/IRandonation/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IRandonation/IRandonation/output/github-contribution-grid-snake.svg">
+    <img src="https://raw.githubusercontent.com/IRandonation/IRandonation/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" width="100%">
+  </picture>
+</div>
+
+<!-- ✨ 分割线 -->
+<div style="height: 2px; background: rgba(143, 143, 143, 0.62); margin: 30px 0;" ></div>
+
+<!-- 🏆 成就徽章 -->
+<div style="margin: 30px 0;">
+  <h3 style="color: #58A6FF; font-family: 'Fira Code', monospace;">🏆 Achievements</h3>
+  <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin: 20px 0;">
+    <img src="https://img.shields.io/badge/🎯_Pull%20Shark-Active-8B6CFF?style=flat-square&logo=github" alt="Pull Shark" />
+    <img src="https://img.shields.io/badge/⭐_Starstruck-Earned-FFD700?style=flat-square&logo=github" alt="Starstruck" />
+    <img src="https://img.shields.io/badge/🔥_YOLO-Committed-FF6B6B?style=flat-square&logo=github" alt="YOLO" />
+    <img src="https://img.shields.io/badge/🚀_Quickdraw-Fast-4CAF50?style=flat-square&logo=github" alt="Quickdraw" />
+  </div>
+</div>
+
 <!-- 📝 页脚 -->
 <div align="center" style="margin: 30px 0; padding: 20px; border-top: 1px solid #30363d;">
   <p style="color: #8b949e; font-size: 14px; font-family: 'Fira Code', monospace;">
