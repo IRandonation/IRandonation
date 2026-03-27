@@ -27,23 +27,25 @@
 <!-- ✨ 分割线 -->
 <div style="height: 2px; background: rgba(143, 143, 143, 0.62); margin: 30px 0;" ></div>
 
-<!-- 📊 GitHub 统计卡片 -->
-<div align="center" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin: 30px 0;">
-  <img src="https://github-readme-stats.vercel.app/api?username=IRandonation&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&line_height=21&theme=radical&hide_rank=false" 
-       style="border-radius: 12px; box-shadow: 0 6px 20px rgba(166, 166, 166, 0.5);" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IRandonation&hide_title=true&hide_border=true&layout=compact&langs_count=8&theme=radical" 
-       style="border-radius: 12px; box-shadow: 0 6px 20px rgba(166, 166, 166, 0.5);" alt="Top Languages" />
-</div>
-
-<!-- ✨ 分割线 -->
-<div style="height: 2px; background: rgba(143, 143, 143, 0.62); margin: 30px 0;" ></div>
-
 <!-- 🔥 连续贡献记录 -->
 <div style="margin: 30px 0;">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=IRandonation&theme=dark&hide_border=true&background=0D1117&ring=58A6FF&fire=FF6B35&currStreakNum=FFFFFF" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=IRandonation&theme=light&hide_border=true&background=FFFFFF&ring=0969DA&fire=F85149&currStreakNum=24292F" />
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=IRandonation&theme=dark&hide_border=true&background=0D1117&ring=58A6FF&fire=FF6B35&currStreakNum=FFFFFF" alt="GitHub Streak" width="450" 
+    style="border-radius: 12px; box-shadow: 0 6px 20px rgba(166, 166, 166, 0.5);"/>
+  </picture>
+</div>
+
+<!-- ✨ 分割线 -->
+<div style="height: 2px; background: rgba(143, 143, 143, 0.62); margin: 30px 0;" ></div>
+
+<!-- 📈 活动图表 -->
+<div style="margin: 30px 0;">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=IRandonation&theme=github-compact&bg_color=0D1117&color=FFFFFF&line=58A6FF&point=FFFFFF&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=IRandonation&theme=github-compact&bg_color=FFFFFF&color=24292F&line=0969DA&point=24292F&hide_border=true" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=IRandonation&theme=github-compact&bg_color=0D1117&color=FFFFFF&line=58A6FF&point=FFFFFF&hide_border=true" alt="GitHub Activity Graph" width="100%" 
     style="border-radius: 12px; box-shadow: 0 6px 20px rgba(166, 166, 166, 0.5);"/>
   </picture>
 </div>
@@ -59,6 +61,8 @@
     <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
     <img src="https://img.shields.io/badge/ROS-22314E?style=flat-square&logo=ros&logoColor=white" alt="ROS" />
     <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
   </div>
 </div>
 
