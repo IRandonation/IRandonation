@@ -88,9 +88,9 @@
 <!-- 🐍 贡献贪吃蛇动画 -->
 <div style="margin: 30px 0;">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IRandonation/IRandonation/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IRandonation/IRandonation/output/github-contribution-grid-snake.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IRandonation/IRandonation/output/github-contribution-grid-snake.svg">
-    <img src="https://raw.githubusercontent.com/IRandonation/IRandonation/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" width="100%">
+    <img src="https://raw.githubusercontent.com/IRandonation/IRandonation/output/github-contribution-grid-snake.svg" alt="Contribution Snake" width="100%">
   </picture>
 </div>
 
