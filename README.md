@@ -69,13 +69,6 @@
   </picture>
 </div>
 
-<!-- 💻 WakaTime 编程时间统计（可选） -->
-<!-- 如需显示，请注册 https://wakatime.com 并替换 YOUR_WAKATIME_TOKEN -->
-<!-- <div style="margin: 30px 0;">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=IRandonation&theme=radical&token=YOUR_TOKEN" 
-       alt="WakaTime Stats" width="100%" style="border-radius: 16px; box-shadow: 0 8px 24px rgba(88, 166, 255, 0.2);" />
-</div> -->
-
 <!-- 🎯 技能进度 -->
 <div style="margin: 30px 0; padding: 25px; background: linear-gradient(135deg, rgba(30, 58, 95, 0.6) 0%, rgba(13, 27, 42, 0.8) 100%); border-radius: 16px; border: 1px solid rgba(88, 166, 255, 0.2);">
   <h3 style="color: #58A6FF; font-family: 'Fira Code', monospace; margin-bottom: 20px; font-size:1.3em;">🎯 Skill Progression</h3>
@@ -120,26 +113,38 @@
 <!-- 📌 精选项目 -->
 <div style="margin: 40px 0;">
   <h3 style="color: #58A6FF; font-family: 'Fira Code', monospace; margin-bottom: 20px; font-size: 1.3em;">📌 Featured Projects</h3>
-  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 15px 0;">
-    <div style="background: linear-gradient(135deg, #1e3a5f 0%, #0d1b2a 100%); padding: 20px; border-radius: 12px; width: 300px; box-shadow: 0 8px 24px rgba(0,0,0,0.3);">
-      <h4 style="color: #58A6FF; margin-bottom: 10px; font-size: 1.1em;">🎵 FreqSpectrum</h4>
-      <p style="color: #8b949e; font-size: 13px; line-height: 1.6; margin-bottom: 12px;">
-        基于 WS2812 LED 矩阵的音乐频谱可视化系统，使用 Python+C++ 开发
+  <div style="display: flex; justify-content: center; gap: 25px; flex-wrap: wrap; margin: 15px 0;">
+    
+    <!-- Project 1 -->
+    <div style="background: linear-gradient(135deg, rgba(30, 58, 95, 0.7) 0%, rgba(13, 27, 42, 0.9) 100%); padding: 25px; border-radius: 16px; max-width: 320px; min-width: 280px; box-shadow: 0 8px 24px rgba(0,0,0,0.3); border: 1px solid rgba(88, 166, 255, 0.15);">
+      <h4 style="color: #58A6FF; margin-bottom: 12px; font-size: 1.2em;">🎵 FreqSpectrum</h4>
+      <p style="color: #8b949e; font-size: 13px; line-height: 1.7; margin-bottom: 15px;">
+        基于 WS2812 LED 矩阵的音乐频谱可视化系统，使用 Python+C++ 开发，实时显示音频频谱
       </p>
-      <a href="https://github.com/IRandonation/FreqSpectrum-Light">
-        <img src="https://img.shields.io/badge/View_Project-58A6FF?style=flat&logo=github" />
-      </a>
+      <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+        <a href="https://github.com/IRandonation/FreqSpectrum-Light">
+          <img src="https://img.shields.io/badge/View_Project-58A6FF?style=flat&logo=github" alt="View" />
+        </a>
+        <img src="https://img.shields.io/badge/Language-C++-00599C?style=flat-square" alt="C++" />
+        <img src="https://img.shields.io/badge/Language-Python-3776AB?style=flat-square" alt="Python" />
+      </div>
     </div>
     
-    <div style="background: linear-gradient(135deg, #1e3a5f 0%, #0d1b2a 100%); padding: 20px; border-radius: 12px; width: 300px; box-shadow: 0 8px 24px rgba(0,0,0,0.3);">
-      <h4 style="color: #58A6FF; margin-bottom: 10px; font-size: 1.1em;">⌨️ Custom Keyboard</h4>
-      <p style="color: #8b949e; font-size: 13px; line-height: 1.6; margin-bottom: 12px;">
-        自主设计的机械键盘项目，支持 QMK/VIA 固件，RGB 灯效
+    <!-- Project 2 -->
+    <div style="background: linear-gradient(135deg, rgba(30, 58, 95, 0.7) 0%, rgba(13, 27, 42, 0.9) 100%); padding: 25px; border-radius: 16px; max-width: 320px; min-width: 280px; box-shadow: 0 8px 24px rgba(0,0,0,0.3); border: 1px solid rgba(88, 166, 255, 0.15);">
+      <h4 style="color: #58A6FF; margin-bottom: 12px; font-size: 1.2em;">⌨️ Custom Keyboard</h4>
+      <p style="color: #8b949e; font-size: 13px; line-height: 1.7; margin-bottom: 15px;">
+        自主设计的机械键盘项目，支持 QMK/VIA 固件，可自定义 RGB 灯效和按键映射
       </p>
-      <a href="https://github.com/IRandonation/keyboard">
-        <img src="https://img.shields.io/badge/View_Project-58A6FF?style=flat&logo=github" />
-      </a>
+      <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+        <a href="https://github.com/IRandonation/keyboard">
+          <img src="https://img.shields.io/badge/View_Project-58A6FF?style=flat&logo=github" alt="View" />
+        </a>
+        <img src="https://img.shields.io/badge/Firmware-QMK-FF6B6B?style=flat-square" alt="QMK" />
+        <img src="https://img.shields.io/badge/Hardware-PCB-9CF?style=flat-square" alt="PCB" />
+      </div>
     </div>
+    
   </div>
 </div>
 
